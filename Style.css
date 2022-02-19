@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+.hero-section {
+  height: 120vh;
+  background-image: url("img/R.jfif");
+  background-size: cover;
+}
+.hero-section .overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.text-main {
+  color: #ff305b !important;
+}
+.bg-main {
+  background-color: #ff305b;
+}
+.nav-mine {
+  transition: 0.3s;
+}
+.nav-mine:hover {
+  color: #ff305b !important;
+}
+.hero-section-content {
+  height: 80%;
+}
+/* /////////// */
+
+/* body {
+  font-family: "Raleway", sans-serif;
+  background-image: linear-gradient(345deg, rgb(255, 255, 255), rgb(0, 0, 0));
+  color: #ff305b;
+} */
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  margin: -6px auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form-wrap {
+  background: #fff;
+  padding: 5px 25px;
+  color: #333;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+
+.form-wrap .form-group {
+  margin-top: 15px;
+}
+
+.form-wrap .form-group label {
+  display: block;
+  color: #000000;
+}
+
+.form-wrap .form-group input {
+  width: 100%;
+  padding: 5px;
+  border: #ddd 1px solid;
+  border-radius: 5px;
+}
+
+.form-wrap button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #111111;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-wrap button:hover {
+  background: #ff305b;
+}
+
+.form-wrap .bottom-text {
+  font-size: 13px;
+  margin-top: 20px;
+}
